@@ -1,0 +1,21 @@
+.info_title {
+    color: var(--primary-color);
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.info_line {
+    border-top: 1px solid var(--gray-border);
+    margin: 10px 0;
+}
+.info_item_title {
+    color: var(--primary-border);
+    font-weight: 500;
+    font-size: 1rem;
+}
+.info_item_value {
+    margin: 10px 0;
+    color: var(--gray-color);
+    font-weight: 400;
+    font-size: .85rem;
+
+}

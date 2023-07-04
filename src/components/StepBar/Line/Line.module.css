@@ -1,0 +1,8 @@
+.line {
+  width: 75px;
+  height: 3px;
+  background-color: #00c3d3;
+}
+.line__done {
+  background-color: #00c3d3;
+}

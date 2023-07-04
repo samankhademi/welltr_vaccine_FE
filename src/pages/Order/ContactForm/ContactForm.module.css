@@ -1,0 +1,5 @@
+@media (max-width: 768px) {
+    :global .popup_holder{
+        bottom: unset !important;
+    }
+}

@@ -1,0 +1,17 @@
+.wizard-bar {
+  height: 2px;
+  /* color of line when it is not passed */
+  background-color: red;
+  position: absolute;
+  /* z-index: -1; */
+  top: 50%;
+  transform: translateY(-50%);
+  overflow: hidden;
+}
+
+.wizard-bar-progress {
+  height: 100%;
+  /* color of line when it is passed */
+  background-color: blue;
+  transition: width 0.5s ease;
+}

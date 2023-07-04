@@ -1,0 +1,13 @@
+version: "3"
+services:
+  website:
+    container_name: vaccine_website
+    image: registry.superpay.com.tr/covid19vaccine/frontend/vaccine-website:${BUILD_VERSION_VACCINE_WEBSITE}
+    #build: .
+    ports:
+      - "8080:8080"
+    networks:
+      - website
+
+networks:
+        website:

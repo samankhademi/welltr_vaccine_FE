@@ -1,0 +1,105 @@
+.summerySidebar{
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 3px 19px 0 #eef4f4;
+  border: solid 1px #f3f5f4;
+  background-color: #fff;
+  min-height: 400px;
+  color: #000;
+}
+.summerySidebarHolder{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.hotelName{
+  font-weight: 400;
+  font-size: 1.25rem;
+  letter-spacing: normal;
+  line-height: 1.5;
+}
+.hotelAddress{
+  font-weight: 200;
+  font-size: .75rem;
+  letter-spacing: normal;
+  margin: 10px 0 0;
+}
+.stayFields{
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.fieldIcon{
+  width: 1rem;
+}
+.fieldValue{
+  margin: 0 20px 0;
+  font-weight: 200;
+  font-size: .85rem;
+  letter-spacing: normal;
+}
+.separator{
+  border-top: 1px solid #E9E9E9;
+  margin: 2rem 0;
+}
+.priceHolder{
+
+}
+.priceFieldRow{
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+}
+.priceField{
+  font-weight: 100;
+  font-size: .85rem;
+  letter-spacing: normal;
+  margin: 0;
+}
+.priceField:after{
+  content: ":";
+  margin: 0 5px;
+}
+.priceValue{
+  font-weight: 400;
+  font-size: .85rem;
+  letter-spacing: normal;
+  margin: 0;
+}
+.priceValue:before{
+  content: "€";
+   font-weight: 300;
+
+ }
+.totalOldPriceField{
+  font-weight: 600;
+  font-size: 1rem;
+  margin-top: .75rem;
+
+}
+.totalOldPriceValue{
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-top: .75rem;
+  text-decoration: line-through;
+  color: #FB941E;
+
+}
+.totalPriceField{
+
+}
+.totalPriceField{
+  font-weight: 600;
+  font-size: 1rem;
+  margin-top: 1.5rem;
+}
+.totalPriceValue{
+  font-weight: 600;
+  font-size: 2rem;
+  margin-top: 1.5rem;
+  color: #16B35A;
+}

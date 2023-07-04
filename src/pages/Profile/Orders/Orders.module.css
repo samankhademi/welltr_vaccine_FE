@@ -1,0 +1,19 @@
+.order_title {
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 1.8rem;
+    color: var(--primary-color);
+    line-height: 2rem;
+}
+.icon{
+    font-size: 200px;
+    margin: 0 auto;
+    display: block;
+    fill: var(--primary-color);
+}
+@media print {
+    .icon,.order_title{
+        display: none;
+    }
+}

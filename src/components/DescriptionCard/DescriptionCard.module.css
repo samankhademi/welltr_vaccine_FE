@@ -1,0 +1,10 @@
+.desc_container {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.desc_title {
+    color: #1a759f;
+}
+.desc_text {
+    color: black;
+}

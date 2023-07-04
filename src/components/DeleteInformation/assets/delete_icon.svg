@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="62.866" height="62.866" viewBox="0 0 62.866 62.866">
+    <defs>
+        <linearGradient id="linear-gradient" x1=".5" x2=".5" y2="1" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#52b69a"/>
+            <stop offset="1" stop-color="#1a759f"/>
+        </linearGradient>
+        <style>
+            .cls-delete{fill:url(#linear-gradient)}
+        </style>
+    </defs>
+    <g id="Group_72759" transform="translate(-21797.578 15133.045)">
+        <g id="Group_72757" transform="translate(21797.578 -15133.045)">
+            <circle id="Ellipse_1053" cx="31.433" cy="31.433" r="31.433" class="cls-delete"/>
+        </g>
+        <circle id="Ellipse_1054" cx="24.641" cy="24.641" r="24.641" fill="#fff" transform="translate(21804.371 -15126.253)"/>
+        <g id="Group_72143" transform="translate(21825 -15116.806) translate(0)">
+            <g id="Group_72139">
+                <g id="Group_72138">
+                    <path id="Path_43249" d="M8089.718 7564.853h-7.391v-20.623h7.391zm-3.7 1.458a4.01 4.01 0 1 0 4.009 4.01 4.01 4.01 0 0 0-4.004-4.01z" class="cls-delete" transform="translate(-8082.012 -7544.23)"/>
+                </g>
+            </g>
+            <g id="Group_72142">
+                <g id="Group_72141" style="mix-blend-mode:multiply;isolation:isolate" opacity="0.24">
+                    <g id="Group_72140">
+                        <path id="Path_43250" d="M8089.718 7564.853h-7.391v-20.623h7.391zm-3.7 1.458a4.01 4.01 0 1 0 4.009 4.01 4.01 4.01 0 0 0-4.004-4.01z" class="cls-delete" transform="translate(-8082.012 -7544.23)"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

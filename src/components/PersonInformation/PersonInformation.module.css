@@ -1,0 +1,25 @@
+.person_info_title {
+    text-align: center;
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 10px 0 50px 0;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--gray-border);
+}
+.person_form_container {
+    padding: 30px 50px;
+}
+.mainHolder{
+    padding: 0 15px;
+}
+@media (max-width: 768px) {
+    .person_info_title {
+        font-size: 1.5rem;
+        font-weight: 300;
+        padding: 20px 0 20px 0;
+        margin: 0 0 10px 0;
+        border-bottom: 1px solid #f5f5f5;
+    }
+
+}

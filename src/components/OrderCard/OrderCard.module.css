@@ -1,0 +1,93 @@
+
+.order_card {
+    border-radius: 10px;
+    box-shadow: 0 3px 19px 0 #eef4f4;
+    border: solid 1px #f3f5f4;
+    background-color: #fff;
+    position: relative;
+    padding: 20px;
+}
+.order_card:before {
+    content: "";
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: 0 3px 19px 0 #eef4f4;
+    border: solid 1px #f3f5f4;
+    background-color: #fff;
+    bottom: -27px;
+    position: absolute;
+    left: 7%;
+    right: 7%;
+    z-index: -1;
+}
+.order_card:after {
+    content: "";
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: 0 3px 19px 0 #eef4f4;
+    border: solid 1px #f3f5f4;
+    background-color: #fff;
+    bottom: -13px;
+    position: absolute;
+    left: 3%;
+    right: 3%;
+    z-index: -1;
+}
+.dose_container {
+    display: flex;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.dose_container_disabled {
+    background-color: #adadaf;
+}
+.dose_date {
+    font-weight: 800;
+}
+.info_container {
+    margin-top: 50px;
+}
+.qr_container {
+    cursor: pointer;
+}
+.qr_container > img, .qr_container > div {
+    width: 100%;
+    max-width: 200px;
+    margin: auto;
+    display: block;
+}
+.health_code_container {
+    display: flex !important;
+    background-color: #f1f1f1;
+    color: var(--primary-color);
+    font-weight: bold;
+    margin-top: 10px !important;
+    border-radius: 3px;
+    padding: 10px 10px;
+    font-size: 18px;
+}
+.download_button {
+    border: 1px solid var(--primary-color) !important;
+    border-radius: 3px;
+    color: var(--primary-color);
+    font-weight: 600;
+    text-align: center;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px !important;
+}
+.dose_setup_container {
+    border: 1px solid #1a759f;
+    border-radius: 5px;
+}
+.dose_reservation_title {
+    margin-top: 10px;
+}
+.dose_reservation_container {
+    margin-top: 0;
+}
+.inputs_container {
+    padding: 30px 15px 15px 15px;
+}

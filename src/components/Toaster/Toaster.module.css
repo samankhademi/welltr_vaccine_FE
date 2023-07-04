@@ -1,0 +1,30 @@
+.toaster_wrapper {
+    position: fixed;
+    width: 300px;
+    line-height: 1.5;
+    background-color: black;
+    top: 0;
+    visibility: hidden;
+    right: calc(50% - 150px);
+    z-index: 100;
+    transition: top ease-in-out 0.1s;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+.toaster_wrapper__show {
+    top: 30px;
+    visibility: visible;
+}
+.error{
+    background-color: #f5222d;
+    color: #fff;
+    font-size: 1.2rem;
+}
+.success{
+    background-color: #16B35A;
+    color: #fff;
+    font-size: 1.2rem;
+}

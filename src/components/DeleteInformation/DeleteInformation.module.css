@@ -1,0 +1,15 @@
+.delete_icon {
+    display: block;
+    margin: auto;
+}
+.delete_title {
+    text-align: center;
+    color: #1a759f;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.sure_text {
+    color: black;
+    font-weight: normal;
+}

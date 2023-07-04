@@ -1,0 +1,154 @@
+.container{
+    width: 100%;
+}
+.title_container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.title_container__text {
+    font-weight: 300;
+}
+.title{
+    font-size: 30px;
+    font-weight: 300;
+    margin: 20px 0 50px 0;
+    color: #000;
+    line-height: 1.5;
+}
+.summeryPanelHolder{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0 3px 19px 0 #eef4f4;
+    border: solid 1px #f3f5f4;
+    background-color: #fff;
+
+    padding: 20px;
+    width: 100%;
+    color: #000;
+    margin: 0 auto 10px auto;
+}
+.summeryPanelHolder .fullPrice{
+    font: 300 40px / 48px -apple-system, BlinkMacSystemFont, Poppins, Yekan, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: -.2px;
+    margin: 0;
+}
+.summeryPanelHolder .personPrice{
+     font: 100 16px / 24px -apple-system, BlinkMacSystemFont, Poppins, Yekan, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+     letter-spacing: normal;
+     margin: 0 0 16px;
+}
+.summeryPanelHolder .personPrice span{
+     font: 100 16px / 24px -apple-system, BlinkMacSystemFont, Poppins, Yekan, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+     letter-spacing: normal;
+     margin: 0;
+}
+.summeryTable{
+    width: 100%;
+    position: relative;
+    min-height: 165px;
+}
+.summeryBar{
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+}
+.summeryRow{
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.summeryItem{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background-color: #fff;
+    padding: 0 8px;
+    pointer-events: none;
+    border: 1px solid #757575;
+    border-bottom: 0 none;
+    min-height: 55px;
+}
+.summeryItemFirst{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background-color: #fff;
+    padding: 0 8px;
+    pointer-events: none;
+    border: 1px solid #757575;
+    border-bottom: 0 none;
+    border-radius:  8px 8px 0 0;
+    min-height: 55px;
+}
+.summeryItemLast{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background-color: #fff;
+    padding: 0 8px;
+    pointer-events: none;
+    border: 1px solid #757575;
+    border-radius:  0 0 8px 8px;
+    min-height: 55px;
+}
+.summeryItemLabel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+    margin: 0;
+    padding: 0 8px;
+}
+.summeryItemLabelSep{
+    width: 1px;
+    background: #757575;
+    margin-left: -1px;
+    height: 39px;
+    margin-top: 9px;
+    z-index: 1;
+}
+.summeryItemLabelField{
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 100;
+    letter-spacing: normal;
+    margin: 0;
+    color: rgba(0, 0, 0, 0.5);
+    white-space: nowrap;
+    cursor: pointer;
+}
+.summeryItemLabelField:after{
+    content: ":";
+}
+.summeryItemLabelValue{
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 300;
+    letter-spacing: normal;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+@media (max-width: 768px) {
+    .summeryPanelHolder{
+        max-width: 400px;
+        width: 100%;
+    }
+}
+:global(.rtl .vaccineOption){
+    direction: ltr;
+    text-align: right;
+}
+.fields{
+    margin-bottom: 30px;
+}
+.input{
+    direction: ltr !important;
+    text-align: left !important;
+
+}
+@media (max-width: 768px) {
+    :global .popup_holder{
+        bottom: unset !important;
+    }
+}

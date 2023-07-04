@@ -1,0 +1,73 @@
+/*
+!* Fonts *!
+@font-face {
+  font-family: "Poppins";
+  src: url("../assets/fonts/Poppins/Poppins-Regular/Poppins-Regular.eot");
+  src: url("../assets/fonts/Poppins/Poppins-Regular/Poppins-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../assets/fonts/Poppins/Poppins-Regular/Poppins-Regular.woff") format("woff"),
+    url("../assets/fonts/Poppins/Poppins-Regular/Poppins-Regular.ttf")
+      format("truetype");
+  font-style: normal;
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../assets/fonts/Poppins/Poppins-Medium/Poppins-Medium.eot");
+  src: url("../assets/fonts/Poppins/Poppins-Medium/Poppins-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("../assets/fonts/Poppins/Poppins-Medium/Poppins-Medium.woff") format("woff"),
+    url("../assets/fonts/Poppins/Poppins-Medium/Poppins-Medium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../assets/fonts/Poppins/Poppins-Bold/Poppins-Bold.eot");
+  src: url("../assets/fonts/Poppins/Poppins-Bold/Poppins-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../assets/fonts/Poppins/Poppins-Bold/Poppins-Bold.woff") format("woff"),
+    url("../assets/fonts/Poppins/Poppins-Bold/Poppins-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+*/
+/*@font-face {*/
+/*  font-family: "Yekan";*/
+/*  src: url("../assets/fonts/Yekan/FaNum/Yekan-Bakh-FaNum-04-Regular.eot");*/
+/*  src: url("../assets/fonts/Yekan/FaNum/Yekan-Bakh-FaNum-04-Regular.eot?#iefix")*/
+/*      format("embedded-opentype"),*/
+/*    url("../assets/fonts/Yekan/FaNum/Yekan-Bakh-FaNum-04-Regular.woff") format("woff"),*/
+/*    url("../assets/fonts/Yekan/FaNum/Yekan-Bakh-FaNum-04-Regular.ttf")*/
+/*      format("truetype");*/
+/*  font-style: normal;*/
+/*  font-weight: 200;*/
+/*}*/
+
+/*@font-face {*/
+/*  font-family: "Yekan";*/
+/*  src: url("../assets/fonts/Yekan/FaNum/Yekan-Bakh-FaNum-05-Medium.eot");*/
+/*  src: url("../assets/fonts/Yekan/FaNum/Yekan-Bakh-FaNum-05-Medium.eot?#iefix")*/
+/*      format("embedded-opentype"),*/
+/*    url("../assets/fonts/Yekan/FaNum/Yekan-Bakh-FaNum-05-Medium.woff") format("woff"),*/
+/*    url("../assets/fonts/Yekan/FaNum/Yekan-Bakh-FaNum-05-Medium.ttf") format("truetype");*/
+/*  font-style: normal;*/
+/*  font-weight: 300;*/
+/*}*/
+
+/*@font-face {*/
+/*  font-family: "Yekan";*/
+/*  src: url("../assets/fonts/Yekan/FaNum/Yekan-Bakh-FaNum-06-Bold.eot");*/
+/*  src: url("../assets/fonts/Yekan/FaNum/Yekan-Bakh-FaNum-06-Bold.eot?#iefix")*/
+/*      format("embedded-opentype"),*/
+/*    url("../assets/fonts/Yekan/FaNum/Yekan-Bakh-FaNum-06-Bold.woff") format("woff"),*/
+/*    url("../assets/fonts/Yekan/FaNum/Yekan-Bakh-FaNum-06-Bold.ttf") format("truetype");*/
+/*  font-style: normal;*/
+/*  font-weight: 400;*/
+/*}*/
+
+@import "../assets/fonts/iranSans/iranSans.css";
+/*@import "../assets/fonts/Yekan-Bakh/yekanBakh.css";*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');

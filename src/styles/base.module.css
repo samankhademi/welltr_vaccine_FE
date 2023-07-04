@@ -1,0 +1,92 @@
+.input {
+    /*background-color: #f1f1f1 !important;*/
+    /*border: none !important;*/
+    direction: ltr;
+    font-weight: 300 !important;
+    font-size: .8rem;
+    box-shadow: 0 3px 19px 0 #eef4f4;
+    border: solid 1px #f3f5f4 !important;
+    background-color: #fff !important;
+    border-radius: 5px !important;
+    text-align: left;
+}
+.select {
+    /*background-color: #f1f1f1 !important;*/
+    /*border: none !important;*/
+    font-weight: 300 !important;
+    font-size: .8rem;
+    box-shadow: 0 3px 19px 0 #eef4f4;
+    border: solid 1px #f3f5f4 !important;
+    background-color: #fff !important;
+    border-radius: 5px !important;
+}
+:global .ltr *{
+    direction: ltr;
+}
+:global .input-group > .form-control:not(:first-child){
+    border-radius: 0 5px 5px 0 !important;
+}
+:global .rtl .input-group > .form-control:not(:first-child){
+    border-radius: 5px 0 0 5px !important;
+}
+:global .ltr .input-group > .form-control:not(:first-child){
+    border-radius: 0 5px 5px 0 !important;
+}
+:global .input-group-prepend:first-child span{
+    background-color: #fff !important;
+    border-color: #f3f5f4 !important;
+}
+:global .rtl .input-group:first-child span{
+    border-radius: 5px 0 0 5px !important;
+}
+:global .ltr .input-group>:first-child span{
+
+    border-radius: 5px 0 0 5px !important;
+}
+.input::placeholder{
+    color: inherit !important;
+    font-size: .8rem;
+    font-weight: 200;
+}
+.input_label {
+    color: black;
+    font-weight: 300;
+    font-size: .8rem;
+}
+.input_label_required {
+    font-size: 1rem;
+    color: #f5222d;
+}
+.center_text {
+    text-align: center;
+}
+.input_text {
+    margin-top: -0.6rem !important;
+    color: firebrick;
+    margin-bottom: 0.6rem;
+    font-weight: 300 !important;
+    text-transform: capitalize;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+:global(.rbt.has-aux .rbt-aux) {
+    position: absolute;
+    top: 7px;
+    right: 2%;
+}
+:global(.rtl .rbt.has-aux .rbt-aux) {
+    right: auto;
+    left: 2%;
+}
+:global(.rbt.has-aux) {
+
+}

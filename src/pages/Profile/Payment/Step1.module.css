@@ -1,0 +1,91 @@
+.total_container {
+  background-color: #adadaf;
+  color: white;
+  padding: 20px 30px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.total_submit {
+  width: 100%;
+  height: 100%;
+}
+.price_desc {
+  margin-top: 30px;
+  color: black;
+}
+.payment_type {
+  margin-top: 20px;
+  display: flex;
+}
+.payment_item {
+  display: flex;
+  width: 33.33%;
+  justify-content: center;
+}
+.payment_item > label {
+  cursor: pointer;
+}
+.price {
+  margin-top: 20px;
+  border: 2px solid #adadaf;
+  border-radius: 4px;
+  text-align: center;
+  color: black;
+  padding: 20px;
+  font-weight: bold;
+}
+.payment_button {
+  margin-top: 20px;
+}
+.payment_button_item {
+  padding: 10px;
+  width: 100%;
+}
+.payment_title {
+  text-align: center;
+  margin-top: 50px;
+}
+.copy_container {
+  display: flex !important;
+  background-color: #f1f1f1;
+  color: #1a759f;
+  font-weight: bold;
+  margin-top: 20px !important;
+  border-radius: 3px;
+  padding: 10px 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+.exchange_table {
+  margin-top: 40px;
+}
+.next_step {
+  width: 220px;
+  margin: 0 0 0 10px;
+}
+.holder{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.actionHolder{
+  align-self: flex-end;
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 20px;
+
+}
+.finalize{
+  width: 220px;
+  margin: 0 0 0 10px;
+  background-image: linear-gradient(to right, #24a493 1%, #25c466 99%);
+  box-shadow: 0 3px 14px 0 rgb(37 185 117 / 64%);
+  padding: 10px !important;
+  border-radius: 5px !important;
+  font-weight: 200 !important;
+  font-size: 1.25rem !important;
+
+}

@@ -1,0 +1,42 @@
+.person_title {
+    color: #1a759f;
+    font-weight: bold;
+}
+
+.input{
+    box-shadow: 0 3px 19px 0 #eef4f4;
+    border: solid 1px #f3f5f4 !important;
+    background-color: #fff !important;
+    border-radius: 5px !important;
+}
+
+.person_form_container {
+    padding: 20px 20px 50px 20px;
+    margin-bottom: 30px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 3px 5px 0 #eef4f4;
+    border: solid 1px #ebebeb;
+    background-color: #fff;
+}
+.removePersonIcon{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: #fff;
+    font-weight: 200;
+    text-align: center;
+    border-radius: 5px;
+    height: 25px;
+    padding: 0 10px;
+    border: solid 1px #D54000;
+    background-color: #FF4C00;
+    transition: .3s all;
+}
+.removePersonIcon:hover{
+    box-shadow: 0 3px 15px 0 #FF6A2A;
+}
+:global(.rtl .removePersonIcon){
+    left: 10px;
+    right: auto;
+}

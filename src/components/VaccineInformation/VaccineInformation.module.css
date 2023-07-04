@@ -1,0 +1,10 @@
+.vaccine_info_title {
+    text-align: center;
+    color: #1a759f;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 20px 0px;
+}
+.vaccine_info_item {
+    padding-top: 20px;
+}

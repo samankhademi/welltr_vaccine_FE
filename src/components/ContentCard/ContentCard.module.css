@@ -1,0 +1,89 @@
+.content_container {
+}
+.content_title {
+    color: #333;
+    font-size: 1rem;
+    font-weight: 300;
+}
+.content_body {
+    margin-top: 20px;
+    border-radius: 11px;
+    box-shadow: 0 11px 45px 0 #eaeef6;
+    background-color: #fff;
+}
+.content_item_title {
+    color: #999;
+    font-weight: 100;
+    font-size: .75rem;
+}
+.content_item_title:after{
+    content: " :";
+}
+.content_item_body {
+    color: black;
+    font-weight: 200;
+    margin: 10px 0;
+}
+.content_body_container {
+    padding: 20px 25px;
+}
+.content_body_actions {
+    display: flex;
+    justify-content: flex-end;
+}
+.content_body_button {
+    color: #000;
+    padding: 10px 15px;
+    margin-top: -20px;
+    margin-right: -2px;
+    margin-left: -2px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: solid 1px #f5f5f5;
+    background-color: #fff;
+    box-shadow: 0 11px 45px 0 #eaeef6;
+    transition: .3s all;
+}
+.content_body_button:hover {
+    box-shadow: 0 20px 45px 0 #eaeef6;
+}
+.content_body_button_space {
+    width: 10px;
+}
+.content_body_button_icon {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.button {
+    border: 1px dotted #ccc;
+    height: 100%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 230px;
+    margin-right: 0;
+    cursor: pointer;
+    font-weight: 100;
+    color: #999;
+    font-size: .75rem;
+}
+.button:hover {
+    border: 1px dotted #999;
+    color: #555;
+}
+.button:hover svg {
+    fill: #999;
+}
+.button__icon {
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 20px;
+}
+.download_link {
+    text-align: center;
+    font-weight: 200;
+    display: block;
+    margin-top: 10px;
+    font-size: .75rem;
+}
